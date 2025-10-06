@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    var a = "valor valido";
+    var a = "valor valido!";
 
     return this.appService.getHello();
   }
