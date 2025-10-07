@@ -9,6 +9,7 @@ export class AppController {
   getHello(): string {
     var a = "valor valido!";
 
+    return a;
     return this.appService.getHello();
   }
 }
